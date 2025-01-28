@@ -1,0 +1,72 @@
+*{
+    margin: 0; /* Remove todas as margens */
+    padding: 0; /* Remove todo o preenchimento */
+    box-sizing: border-box; /* Inclui bordas e preenchimento para calcular o tamanho */
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+    color: #333; /* Define a cor do texto para cinza escuro */
+    background-color: #f4f4f4;
+    padding: 10px; /*Adiciona espaçamento interno ao corpo (body) */
+}
+header{
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1{
+    margin-bottom: 10px;
+}
+
+/* Formatar a barra de navegação */
+nav ul{
+     list-style: none; /* Remove os marcadores padrões da lista */
+    display: flex; /* Aplica o display flexivel (linha comportamento padrão) */
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px; /* Adiciona um  espaçamento entre os itens*/
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none; /* Remove o sublinhado  dos links */
+    margin-right: 5px;
+}
+nav a:hover{
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}
+section{
+    margin: 20px 0; /*Adiciona espaçamento vertical entre as seções */
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px; /* Arredonda as bordas da section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona um pouco de sombra a section horizontal, vertical, esfumaçado*/
+}
+section h2{
+    color: #0056b3;
+    padding-bottom: 10px;
+}
+section ul{
+    margin-left: 20px;
+    list-style-type:"●";
+}
+section li{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
