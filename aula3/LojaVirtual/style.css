@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1.25rem 0;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    margin: 1.25rem auto;
+    text-align: center;
+}
+
+/* Estilos dos cards */
+.card {
+    display: inline-block;
+    width: 17.5rem;
+    background: white;
+    border: 0.063rem solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.625rem;
+    vertical-align: top;
+    box-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 0.5rem;
+}
+
+.card h2 {
+    font-size: 1.4em;
+    margin: 0.625rem 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.625;
+}rem
+
+.card .price {
+    font-size: 1.2em;
+    color: #27ae60;
+    font-weight: bold;
+}
