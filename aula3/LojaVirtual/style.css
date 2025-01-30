@@ -1,37 +1,41 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     text-align: center;
+    font-size: 1rem; /* Tamanho base em rem, equivale a 16px */
 }
 
 /* Cabeçalho */
 header {
     background-color: #333;
     color: white;
-    padding: 1.25rem 0;
+    padding: 1.25rem 0; /* 20px */
 }
 
 /* Container principal */
 .container {
     width: 90%;
-    margin: 1.25rem auto;
+    margin: 1.25rem auto; /* 20px */
     text-align: center;
 }
 
 /* Estilos dos cards */
 .card {
     display: inline-block;
-    width: 17.5rem;
+    width: 17.5rem; /* 280px */
+    height: 28.75rem; /* 460px */
     background: white;
-    border: 0.063rem solid #ddd;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin: 0.625rem;
+    border: 0.0625rem solid #ddd; /* 1px */
+    border-radius: 0.5rem; /* 8px */
+    padding: 1rem; /* 16px */
+    margin: 0.625rem; /* 10px */
     vertical-align: top;
-    box-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.1); /* 2px 2px 8px */
     transition: transform 0.2s ease-in-out;
+    box-sizing: border-box;
 }
 
 .card:hover {
@@ -40,24 +44,30 @@ header {
 
 .card img {
     width: 100%;
-    height: fit-content;
-    border-radius: 0.5rem;
+    height: 12.5rem; /* 200px */
+    border-radius: 0.5rem; /* 8px */
+    object-fit: cover;
+    margin-bottom: 0.9375rem; /* 15px */
 }
 
 .card h2 {
-    font-size: 1.4em;
-    margin: 0.625rem 0;
+    font-size: 1.4rem; /* 1.4em */
+    margin: 0.625rem 0; /* 10px */
     color: #333;
+    min-height: 3.125rem; /* 50px */
 }
 
 .card p {
-    font-size: 1em;
+    font-size: 1rem; /* 1em */
     color: #666;
-    margin-bottom: 0.625;
-}rem
+    margin-bottom: 0.625rem; /* 10px */
+    min-height: 3.75rem; /* 60px */
+}
 
 .card .price {
-    font-size: 1.2em;
+    font-size: 1.2rem; /* 1.2em */
     color: #27ae60;
     font-weight: bold;
+    display: block;
+    margin-top: 0.9375rem; /* 15px */
 }
