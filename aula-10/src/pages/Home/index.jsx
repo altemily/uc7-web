@@ -6,7 +6,7 @@ function Home() {
         <>
             <Header />
             <main>
-                <p> </p>
+                <p> Aqui é meu Home</p>
             </main>
             <Footer />
         </>
