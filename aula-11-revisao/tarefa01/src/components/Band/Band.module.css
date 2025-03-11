@@ -1,0 +1,25 @@
+.section {
+    flex: 1;
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
+
+.band {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--margin-padrao);
+}
+
+.band img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+    margin-right: var(--margin-padrao);
+}
+
+.band-info {
+    flex: 1;
+}
