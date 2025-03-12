@@ -1,20 +1,14 @@
-.band {
-    display: flex;
-    flex-direction: column; /* Deixar imagem e texto empilhados */
-    align-items: center;
-    text-align: center;
-    background-color: var(--cor-secao);
-    padding: var(--padding-padrao);
-    border-radius: var(--border-radius);
-    border: var(--border-size) solid var(--cor-borda);
-}
-
-.band img {
-    width: var(--largura-imagens);
-    height: var(--altura-imagens);
-    object-fit: cover;
-    margin-bottom: 0.5rem; /* Adiciona espaço entre a imagem e o texto */
-}
-.bandInfo {
-    flex: 1;
-}
+.Band { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: var(--margin-padrao); 
+    } 
+    .Band img { 
+    width: var(--largura-imagens); 
+    height: var(--altura-imagens); 
+    object-fit: cover; 
+    margin-right: var(--margin-padrao); 
+    } 
+    .Bandinfo { 
+        flex: 1;
+     }
