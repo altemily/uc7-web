@@ -1,7 +1,19 @@
-aside {
-    margin: var(--margin-padrao);
-    padding: var(--padding-padrao);
+
+.aside {
     background-color: var(--cor-secao);
     border: var(--border-size) solid var(--cor-borda);
     border-radius: var(--border-radius);
+    padding: var(--padding-padrao);
+    height: fit-content;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aside h2 {
+    font-size: var(--tamanho-h2);
+    margin-bottom: 10px;
+}
+
+.aside p {
+    font-size: var(--tamanho-p);
 }

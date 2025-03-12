@@ -5,7 +5,7 @@ import Main from "../../components/Main";
 import Aside from "../../components/Aside";
 import Footer from "../../components/Footer";
 
-const Home = () => {
+function Home() {
   return (
     <div className={styles.home}>
       <Header />

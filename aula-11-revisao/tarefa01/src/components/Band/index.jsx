@@ -1,16 +1,16 @@
-import React from "react";
-import styles from "./Band.module.css";
+import React from 'react';
+import styles from './Band.module.css';
 
-const Band = ({ imagem, nome, descricao }) => {
+function Band({ image, name, description }) {
   return (
     <div className={styles.band}>
-      <img src={imagem} alt={nome} />
-      <div className={styles.bandInfo}>
-        <h2>{nome}</h2>
-        <p>{descricao}</p>
+      <img src={image} alt={`Banda ${name}`} className={styles.image} />
+      <div className={styles.info}>
+        <h2>{name}</h2>
+        <p>{description}</p>
       </div>
     </div>
   );
-};
+}
 
 export default Band;

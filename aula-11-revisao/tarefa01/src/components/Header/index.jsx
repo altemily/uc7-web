@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-const Header = () => {
+function Header() {
   return (
     <header className={styles.header}>
       <h1>Tema Rock</h1>
@@ -11,6 +11,6 @@ const Header = () => {
       />
     </header>
   );
-};
+}
 
 export default Header;

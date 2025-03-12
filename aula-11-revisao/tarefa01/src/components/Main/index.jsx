@@ -24,7 +24,7 @@ const bands = [
   }
 ];
 
-const Main = () => {
+function Main() {
   return (
     <main className={styles.main}>
       {bands.map((band, index) => (

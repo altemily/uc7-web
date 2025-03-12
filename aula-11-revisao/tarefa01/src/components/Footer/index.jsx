@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className={styles.footer}>
-      &copy; 2023 Tema Rock. Todos os direitos reservados.
+      <p>&copy; 2024 Tema Rock. Todos os direitos reservados.</p>
     </footer>
   );
-};
+}
 
 export default Footer;
