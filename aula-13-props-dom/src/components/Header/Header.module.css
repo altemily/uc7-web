@@ -1,0 +1,11 @@
+.header {
+    background-color: var(--cor-header);
+    text-align: center;
+    padding: var(--padding-header);
+}
+
+.header img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+}
