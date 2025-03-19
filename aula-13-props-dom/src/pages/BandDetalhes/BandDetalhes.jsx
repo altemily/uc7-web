@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import style from "../BandDetalhes/BandDetalhes.module.css"
@@ -10,6 +10,8 @@ import Footer from "../../components/Footer/index";
 
 function BandDetalhes() {
     const { id } = useParams();
+    const [curiosidade, setCuriosidade] = useState('');
+    
     const band = bandas.find((b) => b.id === parseInt(id));
 
     if (!band) {
@@ -32,6 +34,8 @@ function BandDetalhes() {
             <Header />
             <div className={style.container}>
             <Band {...band} />
+            <p>{curiosidade}</p>
+            <button onClick={() =>setCuriosidade(band.curiosidade)}>Curiosidade</button>
                 <div>
                  <Link to={'/'} className={style.link}>Voltar</Link>
                  </div>
