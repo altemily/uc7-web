@@ -1,0 +1,16 @@
+div {
+  background-color: #f8f9fa;
+  padding: 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  width: fit-content;
+  margin: 1rem auto; 
+}
+
+p {
+  font-size: 1.125rem; 
+  color: #333;
+  margin: 0.625rem 0; 
+  font-weight: bold;
+}

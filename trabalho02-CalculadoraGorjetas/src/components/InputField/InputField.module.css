@@ -1,0 +1,25 @@
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem; 
+}
+
+label {
+  font-size: 0.875rem; 
+  color: #333;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem; 
+  font-size: 1rem; 
+  border: 0.0625rem solid #ccc; 
+  border-radius: 0.25rem; 
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #B22222; 
+  box-shadow: 0 0 0.3125rem rgba(178, 34, 34, 0.5); 
+}

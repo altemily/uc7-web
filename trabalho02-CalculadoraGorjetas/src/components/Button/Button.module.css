@@ -1,0 +1,23 @@
+button {
+  background-color: #B22222;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem; 
+  font-size: 1rem; 
+  border-radius: 0.3125rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #A52A2A;
+}
+
+button:active {
+  background-color: #A52A2A;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0.3125rem rgba(178, 34, 34, 0.5); 
+}
