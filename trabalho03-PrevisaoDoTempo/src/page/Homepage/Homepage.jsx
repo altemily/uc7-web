@@ -10,7 +10,7 @@ function Homepage(){
   async function searchCity(){
     console.log(inputRef.current.value)
     const city = inputRef.current.value;
-    const key = "731e9aa9a1beff4c2b6d7d504d21bbc3";
+    const key = "0000000";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric&lang=pt_br`;
     const apiInfo = await axios.get(url);
     setWeather(apiInfo.data)
